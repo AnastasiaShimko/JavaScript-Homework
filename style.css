@@ -1,19 +1,16 @@
+h1 { text-align: center; }
+
 div {
-display: inline-block;
-border: 2px outset black;
-text-align: center;
-width: 250px;
-height: 100px;
+    display: inline-block;
+    border: 2px outset black;
+    text-align: center;
+    width: 270px;
+    height: 100px;
+    margin-left: 8%;
 }
 
-.yellowbackground {
-background-color: yellow;
-}
+.yellowbackground { background-color: yellow; }
 
-.bluebackground {
-background-color: blue;
-}
+.bluebackground { background-color: blue; }
 
-.greenbackground {
-background-color: green;
-}
+.greenbackground { background-color: green; }
