@@ -1,0 +1,19 @@
+div {
+display: inline-block;
+border: 2px outset black;
+text-align: center;
+width: 250px;
+height: 100px;
+}
+
+.yellowbackground {
+background-color: yellow;
+}
+
+.bluebackground {
+background-color: blue;
+}
+
+.greenbackground {
+background-color: green;
+}
