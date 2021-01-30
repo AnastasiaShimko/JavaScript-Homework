@@ -12,7 +12,7 @@ function changeColor(color) {
     document.body.style.background = color;
 }
 
-function onRectangleClick(color) {
+function changeDefaultColor(color) {
     document.body.style.background = color;
     defaultColor = color;
 }
