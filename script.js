@@ -1,8 +1,8 @@
 var defaultColor = 'white';
 
-$("#1").hover(function () { changeColor('yellow'); }, function () { changeColor(defaultColor); });
-$("#2").hover(function () { changeColor('blue'); }, function () { changeColor(defaultColor); });
-$("#3").hover(function () { changeColor('green'); }, function () { changeColor(defaultColor); });
+$("#yellow").hover(function () { changeColor('yellow'); }, function () { changeColor(defaultColor); });
+$("#blue").hover(function () { changeColor('blue'); }, function () { changeColor(defaultColor); });
+$("#green").hover(function () { changeColor('green'); }, function () { changeColor(defaultColor); });
 
 function changeColor(color) {
     $('body').css('background', color);
